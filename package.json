@@ -94,7 +94,7 @@
     "reactstrap": "9.0.2",
     "redux": "4.1.2",
     "redux-thunk": "2.4.1",
-    "tslib": "2.3.1",
+    "tslib": "2.4.0",
     "uuid": "8.3.2"
   },
   "devDependencies": {
