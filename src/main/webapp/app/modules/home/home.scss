@@ -1,10 +1,190 @@
 /* ==========================================================================
 Main page styles
 ========================================================================== */
-.hipster {
-  display: inline-block;
+.container-fluid {
   width: 100%;
-  height: 497px;
-  background: url('../../../content/images/jhipster_family_member_2.svg') no-repeat center top;
-  background-size: contain;
+  padding: 0;
+  .banner {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    .card {
+      border: none;
+      padding: 0 !important;
+      width: 60%;
+      height: 400px;
+      background: url('./banner.png') no-repeat center;
+      background-size: contain;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-end;
+
+      .imgOverlay {
+        width: 450px;
+        padding-top: 40px;
+        text-align: center;
+        .title {
+          color: #8166e2;
+          font-size: 30px;
+          font-weight: bolder;
+        }
+        .para {
+          color: gray;
+        }
+      }
+      .demo__btn {
+        background-color: black;
+        outline: none;
+        border: none;
+      }
+    }
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-around;
+
+    .column {
+      height: 300px;
+      // border: 5px solid lightgrey;
+      // border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      box-shadow: -1px -1px 4px #8166e2, 1px 1px 4px #8166e2;
+
+      .para {
+        color: gray;
+      }
+
+      .btns {
+        display: block;
+        display: flex;
+        width: 250px;
+        justify-content: space-around;
+      }
+
+      .quiz__btn {
+        background-color: #8166e2;
+        border: none;
+      }
+
+      .code__btn {
+        background-color: black;
+        border: none;
+      }
+    }
+  }
+  .paragraph {
+    color: gray;
+    font-size: 14px;
+  }
+  .underline {
+    height: 1px;
+    width: 20%;
+    background-color: #8166e2;
+  }
+
+  .row {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .col1,
+  .col2 {
+    // border: 1px solid gray;
+    min-height: 300px;
+  }
+
+  .demo {
+    .col2 {
+      padding: 30px;
+      > h5 {
+        margin-bottom: 10px;
+      }
+      > ul {
+        list-style: none;
+        > li::before {
+          content: '\2022';
+          color: #8166e2;
+          margin-right: 10px;
+          font-weight: bold;
+        }
+      }
+      .btn {
+        background-color: #8166e2;
+        border: none;
+        float: right;
+      }
+    }
+  }
+  .software__working {
+    .col1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      > h2 {
+        color: #8166e2;
+      }
+    }
+  }
+  .question__bank {
+    .player {
+      width: 600px;
+      height: 400px;
+      margin-top: 40px;
+    }
+  }
+  .choose__us {
+    .col {
+      padding: 20px 0px;
+      > h5 {
+        color: #8166e2;
+      }
+    }
+    .line {
+      width: 1px !important;
+      padding: 0;
+      height: 70px;
+    }
+  }
+  .type__question {
+    .line {
+      width: 1px !important;
+      padding: 0;
+      height: 70px;
+    }
+    .col {
+      height: 200px;
+      box-shadow: -1px -1px 5px lightgrey, 1px 1px 5px lightgrey;
+      > h5 {
+        color: #8166e2;
+        text-align: center;
+        padding: 10px;
+        font-size: 18px;
+      }
+      .mcqs {
+        background: url('./mcq.png') no-repeat;
+        background-size: contain;
+        width: 100%;
+        height: 100%;
+      }
+      .blanks {
+        background: url('./blanks.png') no-repeat;
+        background-size: contain;
+        width: 100%;
+        height: 100%;
+      }
+      .tf {
+        background: url('./tf.png') no-repeat;
+        background-size: contain;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
 }

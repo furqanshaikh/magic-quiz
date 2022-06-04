@@ -48,11 +48,11 @@ export const App = () => {
           />
         </ErrorBoundary>
         <div className="container-fluid view-container" id="app-view-container">
-          <Card className="jh-card">
+          <div className="jh-card">
             <ErrorBoundary>
               <AppRoutes />
             </ErrorBoundary>
-          </Card>
+          </div>
           <Footer />
         </div>
       </div>

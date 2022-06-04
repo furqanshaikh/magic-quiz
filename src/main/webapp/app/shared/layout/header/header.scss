@@ -5,40 +5,40 @@ $header-color-hover: darken($header-color, 20%);
 /* ==========================================================================
 Developement Ribbon
 ========================================================================== */
-.ribbon {
-  background-color: rgba(170, 0, 0, 0.5);
-  left: -3.5em;
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  overflow: hidden;
-  position: absolute;
-  top: 30px;
-  white-space: nowrap;
-  width: 15em;
-  z-index: 99999;
-  pointer-events: none;
-  opacity: 0.75;
-  a {
-    color: #fff;
-    display: block;
-    font-weight: 400;
-    margin: 1px 0;
-    padding: 10px 50px;
-    text-align: center;
-    text-decoration: none;
-    text-shadow: 0 0 5px #444;
-    pointer-events: none;
-  }
-}
+// .ribbon {
+//   background-color: rgba(170, 0, 0, 0.5);
+//   left: -3.5em;
+//   -moz-transform: rotate(-45deg);
+//   -ms-transform: rotate(-45deg);
+//   -o-transform: rotate(-45deg);
+//   -webkit-transform: rotate(-45deg);
+//   transform: rotate(-45deg);
+//   overflow: hidden;
+//   position: absolute;
+//   top: 30px;
+//   white-space: nowrap;
+//   width: 15em;
+//   z-index: 99999;
+//   pointer-events: none;
+//   opacity: 0.75;
+//   a {
+//     color: #fff;
+//     display: block;
+//     font-weight: 400;
+//     margin: 1px 0;
+//     padding: 10px 50px;
+//     text-align: center;
+//     text-decoration: none;
+//     text-shadow: 0 0 5px #444;
+//     pointer-events: none;
+//   }
+// }
 
 /* ==========================================================================
 Navbar styles
 ========================================================================== */
 .jh-navbar {
-  background-color: #353d47;
+  background-color: #7451f8;
   padding: 0.2em 1em;
   .profile-image {
     margin: -10px 0px;
@@ -67,7 +67,7 @@ Navbar styles
     }
   }
   .jh-navbar-toggler {
-    color: #ccc;
+    color: #fff;
     font-size: 1.5em;
     padding: 10px;
     &:hover {
@@ -82,6 +82,7 @@ Navbar styles
 .jh-navbar .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
+  color: white;
 }
 
 .navbar-version {
