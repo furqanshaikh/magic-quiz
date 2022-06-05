@@ -1,0 +1,55 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  .profile {
+    .profile__img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100px;
+      height: 100px;
+      border: 1px solid #d3cdcd;
+      border-radius: 50%;
+      box-shadow: -1px -1px 3px lightgrey, 1px, 1px, 3px lightgrey;
+    }
+  }
+  .button {
+    width: 200px;
+    background-color: #8166e2;
+    border: none;
+    margin: 20px 0;
+  }
+  .menus {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    ul {
+      padding: 0;
+      list-style: none;
+
+      li {
+        list-style: none;
+        padding: 10px 5px;
+        display: block;
+        border-bottom: 1px solid #d3cdcd;
+        &:hover {
+          background-color: #d3cdcd;
+          cursor: pointer;
+          border-radius: 5px;
+        }
+        .icon {
+          color: #8166e2;
+        }
+        .link {
+          text-decoration: none;
+          color: rgba(32, 28, 28, 0.863);
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

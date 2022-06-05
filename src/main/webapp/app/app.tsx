@@ -33,7 +33,7 @@ export const App = () => {
   const isInProduction = useAppSelector(state => state.applicationProfile.inProduction);
   const isOpenAPIEnabled = useAppSelector(state => state.applicationProfile.isOpenAPIEnabled);
 
-  const paddingTop = '60px';
+  const paddingTop = '45px';
   return (
     <Router basename={baseHref}>
       <div className="app-container" style={{ paddingTop }}>
@@ -53,7 +53,7 @@ export const App = () => {
               <AppRoutes />
             </ErrorBoundary>
           </div>
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </div>
     </Router>

@@ -1,0 +1,23 @@
+.user__dashboard {
+  display: flex;
+  width: 100%;
+
+  .sidebar__container {
+    width: 250px;
+    height: 90vh;
+    position: fixed;
+    padding: 20px;
+    border-right: 1px solid #f4f4f4;
+    box-shadow: 2px 0px 5px #f4f4f4;
+  }
+
+  .nav-section {
+    margin-left: 250px;
+    // background-color: aqua;
+    width: 100%;
+
+    .section {
+      padding: 20px;
+    }
+  }
+}
