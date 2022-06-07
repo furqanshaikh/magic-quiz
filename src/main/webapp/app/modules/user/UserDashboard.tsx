@@ -1,4 +1,5 @@
 import React from 'react';
+import { Switch } from 'react-router-dom';
 import DashboardContent from './section/DashboardContent';
 import Sidebar from './sidebar/Sidebar';
 import './style.scss';

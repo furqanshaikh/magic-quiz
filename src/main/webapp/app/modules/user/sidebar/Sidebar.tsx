@@ -27,21 +27,21 @@ function Sidebar() {
           <li>
             {' '}
             <Explore className="icon" />{' '}
-            <Link to={''} className="link">
+            <Link to={'/userdashboard/explore'} className="link">
               Explore
             </Link>
           </li>
           <li>
             {' '}
             <Assignment className="icon" />{' '}
-            <Link to={''} className="link">
+            <Link to={'/userdashboard/quiz'} className="link">
               Quiz
             </Link>
           </li>
           <li>
             {' '}
             <EmojiEvents className="icon" />{' '}
-            <Link to={''} className="link">
+            <Link to={'/userdashboard/result'} className="link">
               Result
             </Link>
           </li>

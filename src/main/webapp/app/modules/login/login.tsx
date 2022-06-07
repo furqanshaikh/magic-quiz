@@ -24,11 +24,12 @@ export const Login = (props: RouteComponentProps<any>) => {
   };
 
   const { location } = props;
-  const { from } = (location.state as any) || { from: { pathname: '/', search: location.search } };
+  const { from } = (location.state as any) || { from: { pathname: '/userdashboard/explore', search: location.search } };
 
   if (isAuthenticated) {
     return <Redirect to={from} />;
   }
+
   return <LoginModal showModal={showModal} handleLogin={handleLogin} handleClose={handleClose} loginError={loginError} />;
 };
 

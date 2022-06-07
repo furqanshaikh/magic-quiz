@@ -15,6 +15,9 @@ import ErrorBoundaryRoute from 'app/shared/error/error-boundary-route';
 import PageNotFound from 'app/shared/error/page-not-found';
 import { AUTHORITIES } from 'app/config/constants';
 import UserDashboard from './modules/user/UserDashboard';
+import Explore from './modules/user/section/explore/Explore';
+import Quiz from './modules/user/section/quiz/Quiz';
+import Result from './modules/user/section/result/Result';
 
 const loading = <div>loading ...</div>;
 
@@ -41,7 +44,7 @@ const Routes = () => {
         <PrivateRoute path="/admin" component={Admin} hasAnyAuthorities={[AUTHORITIES.ADMIN]} />
         <PrivateRoute path="/account" component={Account} hasAnyAuthorities={[AUTHORITIES.ADMIN, AUTHORITIES.USER]} />
         <ErrorBoundaryRoute path="/" exact component={Home} />
-        <PrivateRoute path="/userdashboard" exact component={UserDashboard} hasAnyAuthorities={[AUTHORITIES.USER]} />
+        <PrivateRoute path="/userdashboard" component={UserDashboard} hasAnyAuthorities={[AUTHORITIES.USER]} />
         <PrivateRoute path="/" component={EntitiesRoutes} hasAnyAuthorities={[AUTHORITIES.USER]} />
 
         <ErrorBoundaryRoute component={PageNotFound} />
