@@ -11,7 +11,6 @@ function UserDashboard() {
         <Sidebar />
       </div>
       <div className="nav-section">
-        {/* <div className="nav">nav</div> */}
         <div className="section">
           <DashboardContent />
         </div>

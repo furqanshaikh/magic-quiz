@@ -15,9 +15,9 @@ import ErrorBoundaryRoute from 'app/shared/error/error-boundary-route';
 import PageNotFound from 'app/shared/error/page-not-found';
 import { AUTHORITIES } from 'app/config/constants';
 import UserDashboard from './modules/user/UserDashboard';
-import Explore from './modules/user/section/explore/Explore';
-import Quiz from './modules/user/section/quiz/Quiz';
-import Result from './modules/user/section/result/Result';
+import Explore from './modules/user/section/home/Home';
+import Quiz from './modules/user/section/activity/Activity';
+import Result from './modules/user/section/classes/Classes';
 
 const loading = <div>loading ...</div>;
 

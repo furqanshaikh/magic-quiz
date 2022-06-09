@@ -36,9 +36,10 @@
         padding: 10px 5px;
         display: block;
         border-bottom: 1px solid #d3cdcd;
-        cursor: pointer;
         &:hover {
-          background-color: #fafafa;
+          background-color: #d3cdcd;
+          cursor: pointer;
+          border-radius: 5px;
         }
         .icon {
           color: #8166e2;

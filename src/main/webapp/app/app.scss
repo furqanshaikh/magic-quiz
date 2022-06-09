@@ -1,8 +1,10 @@
 // Override Boostrap variables
 // Import Bootstrap source files from node_modules
 @import '~bootstrap/scss/bootstrap';
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 body {
-  background: #fafafa;
   margin: 0;
 }
 
