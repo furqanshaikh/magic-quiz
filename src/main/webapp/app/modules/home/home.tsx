@@ -1,23 +1,18 @@
 import './home.scss';
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Row, Col, Container, Button, Card, CardImgOverlay, CardTitle, CardText, CardImg } from 'reactstrap';
+import { Row, Col, Button, Card } from 'reactstrap';
 import { Player } from 'video-react';
 import 'video-react/dist/video-react.css';
-
-import { useAppSelector } from 'app/config/store';
 
 // export const Blanks = () => (
 //     <img src="content/images/blanks.png" alt="blanks" className='blankImg'/>
 // );
 
 export const Home = () => {
-  const account = useAppSelector(state => state.authentication.account);
-
   return (
     <div className="container-fluid">
       {/* banner section start*/}
-
       <div className="banner">
         <Card inverse className="card">
           <div className="imgOverlay">

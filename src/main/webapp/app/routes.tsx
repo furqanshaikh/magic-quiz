@@ -18,6 +18,7 @@ import UserDashboard from './modules/user/UserDashboard';
 import Explore from './modules/user/section/home/Home';
 import Quiz from './modules/user/section/activity/Activity';
 import Result from './modules/user/section/classes/Classes';
+import AdminDashboard from './modules/admin/AdminDashboard';
 
 const loading = <div>loading ...</div>;
 
@@ -45,6 +46,7 @@ const Routes = () => {
         <PrivateRoute path="/account" component={Account} hasAnyAuthorities={[AUTHORITIES.ADMIN, AUTHORITIES.USER]} />
         <ErrorBoundaryRoute path="/" exact component={Home} />
         <PrivateRoute path="/userdashboard" component={UserDashboard} hasAnyAuthorities={[AUTHORITIES.USER]} />
+        <PrivateRoute path="/admindashboard" component={AdminDashboard} hasAnyAuthorities={[AUTHORITIES.ADMIN]} />
         <PrivateRoute path="/" component={EntitiesRoutes} hasAnyAuthorities={[AUTHORITIES.USER]} />
 
         <ErrorBoundaryRoute component={PageNotFound} />

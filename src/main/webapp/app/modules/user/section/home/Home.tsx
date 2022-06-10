@@ -8,19 +8,9 @@ function Home() {
 
   const count = ['Web and App', 'Security', 'Data Warehouse', 'Computer Graphics'];
 
-  const isCheck = e => {};
-
   return (
     <div className="home">
       <h1>For Quiz Practices</h1>
-      {/* <div className="code__container">
-        <div className="input">
-          <InputGroup>
-            <Input placeholder='enter join code ' />
-            <Button className='btn'>Join</Button>
-          </InputGroup>
-        </div>
-      </div> */}
 
       {count.map(i => (
         <div className="category" key={i}>

@@ -19,7 +19,7 @@ function Sidebar() {
         <div className="profile__name">Qaiser Hussain</div>
       </div>
       <Button color="primary" className="button">
-        Practice Quiz
+        Create Quiz
       </Button>
 
       <div className="menus">
@@ -27,21 +27,21 @@ function Sidebar() {
           <li>
             {' '}
             <Home className="icon" />{' '}
-            <Link to={'/userdashboard/explore'} className="link">
+            <Link to={'/admindashboard/home'} className="link">
               Home
             </Link>
           </li>
           <li>
             {' '}
             <AlarmAdd className="icon" />{' '}
-            <Link to={'/userdashboard/quiz'} className="link">
-              Activity
+            <Link to={'/admindashboard/records'} className="link">
+              Records
             </Link>
           </li>
           <li>
             {' '}
             <Group className="icon" />{' '}
-            <Link to={'/userdashboard/result'} className="link">
+            <Link to={'/admindashboard/classes'} className="link">
               Classes
             </Link>
           </li>

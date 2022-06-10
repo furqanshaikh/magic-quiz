@@ -1,17 +1,17 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import { Row, Col } from 'reactstrap';
-import Explore from './explore/Explore';
-import Quiz from './quiz/Quiz';
-import Result from './result/Result';
+import Home from './home/Home';
+import Records from './records/Records';
+import Classes from './classes/Classes';
 import './style.scss';
 function DashboardContent() {
   return (
     <div className="dashboard__content">
       <Switch>
-        <Route path={'/userdashboard/explore'} component={Explore}></Route>
-        <Route path={'/userdashboard/quiz'} component={Quiz}></Route>
-        <Route path={'/userdashboard/result'} component={Result}></Route>
+        <Route path={'/admindashboard/home'} component={Home}></Route>
+        <Route path={'/admindashboard/records'} component={Records}></Route>
+        <Route path={'/admindashboard/classes'} component={Classes}></Route>
       </Switch>
     </div>
   );
