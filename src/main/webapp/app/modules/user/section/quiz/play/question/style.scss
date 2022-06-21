@@ -1,0 +1,18 @@
+.question {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  .col {
+    border-radius: 10px;
+  }
+  .opt {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    .col {
+      box-shadow: none;
+      background-color: #fafafa;
+    }
+  }
+}

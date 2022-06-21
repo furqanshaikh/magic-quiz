@@ -1,0 +1,30 @@
+.instructions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+  .col {
+    height: fit-content;
+  }
+  .card {
+    border: none;
+    .my-5 {
+      > ul > li {
+        margin: 5px 0;
+      }
+    }
+  }
+  .btns {
+    display: flex;
+    justify-content: space-between;
+    :nth-child(1) {
+      background-color: grey;
+      border: none;
+    }
+    :nth-child(2) {
+      background-color: rgb(43, 177, 43);
+      border: none;
+    }
+  }
+}

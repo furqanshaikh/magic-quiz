@@ -4,13 +4,35 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  > h1 {
-    font-family: 'Indie Flower', cursive;
-    font-weight: bolder;
-    color: gray;
-    letter-spacing: 2px;
+  .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .prof {
+      color: #8166ef;
+    }
+    .btn {
+      padding: 5px 30px;
+      background-color: rgb(43, 177, 43);
+      border: none;
+      transition: all ease-in-out 0.3s;
+
+      &:hover {
+        letter-spacing: 3px;
+        cursor: pointer;
+      }
+    }
   }
-  > p {
-    color: grey;
+  .recent {
+    text-align: center;
+    > h1 {
+      font-family: 'Indie Flower', cursive;
+      font-weight: bolder;
+      color: gray;
+      letter-spacing: 2px;
+    }
+    > p {
+      color: grey;
+    }
   }
 }
