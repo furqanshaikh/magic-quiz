@@ -6,7 +6,8 @@
     "optionB": "25 degrees Celcius",
     "optionC": "100 degrees Celcius",
     "optionD": "150 degrees Celcius",
-    "answer": "100 degrees Celcius"
+    "answer": "100 degrees Celcius",
+    "givenAnswer": ""
   },
 
   {
@@ -16,7 +17,8 @@
     "optionB": "William Shakespeare",
     "optionC": "Ngozi Chimamanda Adichie",
     "optionD": "Dan Brown",
-    "answer": "William Shakespeare"
+    "answer": "William Shakespeare",
+    "givenAnswer": ""
   },
 
   {
@@ -26,7 +28,8 @@
     "optionB": "A Computer",
     "optionC": "A pair of shoes",
     "optionD": "Alarm Clock",
-    "answer": "Alarm Clock"
+    "answer": "Alarm Clock",
+    "givenAnswer": ""
   },
 
   {
@@ -36,7 +39,8 @@
     "optionB": "Elephant",
     "optionC": "Goat",
     "optionD": "Lion",
-    "answer": "Elephant"
+    "answer": "Elephant",
+    "givenAnswer": ""
   },
 
   {
@@ -46,7 +50,8 @@
     "optionB": "Morgan Freeman",
     "optionC": "Sherlock Holmes",
     "optionD": "Samuel L. Jackson",
-    "answer": "Sherlock Holmes"
+    "answer": "Sherlock Holmes",
+    "givenAnswer": ""
   },
 
   {
@@ -56,7 +61,8 @@
     "optionB": "Blue and Red",
     "optionC": "Green and White",
     "optionD": "Black and White",
-    "answer": "Black and White"
+    "answer": "Black and White",
+    "givenAnswer": ""
   },
 
   {
@@ -66,7 +72,8 @@
     "optionB": "The Ear",
     "optionC": "The Legs",
     "optionD": "The Hands",
-    "answer": "The Ear"
+    "answer": "The Ear",
+    "givenAnswer": ""
   },
 
   {
@@ -76,7 +83,8 @@
     "optionB": "10",
     "optionC": "10,000",
     "optionD": "1,000,000",
-    "answer": "100"
+    "answer": "100",
+    "givenAnswer": ""
   },
 
   {
@@ -86,7 +94,8 @@
     "optionB": "Horse racing",
     "optionC": "Street Racing",
     "optionD": "Arm Wrestling",
-    "answer": "Horse racing"
+    "answer": "Horse racing",
+    "givenAnswer": ""
   },
 
   {
@@ -96,7 +105,8 @@
     "optionB": "Sir Isaac Newton",
     "optionC": "Leonardo Da Vinci",
     "optionD": "Albert Einstein",
-    "answer": "Leonardo Da Vinci"
+    "answer": "Leonardo Da Vinci",
+    "givenAnswer": ""
   },
 
   {
@@ -106,7 +116,8 @@
     "optionB": "The Dictionary",
     "optionC": "The Bible",
     "optionD": "The Chemistry text Book",
-    "answer": "The Koran"
+    "answer": "The Koran",
+    "givenAnswer": ""
   },
 
   {
@@ -116,7 +127,8 @@
     "optionB": "San Francisco",
     "optionC": "Abuja",
     "optionD": "Syndey",
-    "answer": "Addis Ababa"
+    "answer": "Addis Ababa",
+    "givenAnswer": ""
   },
 
   {
@@ -126,7 +138,8 @@
     "optionB": "64",
     "optionC": "32",
     "optionD": "256",
-    "answer": "64"
+    "answer": "64",
+    "givenAnswer": ""
   },
 
   {
@@ -136,7 +149,8 @@
     "optionB": "Barack Obama",
     "optionC": "Wole Soyinka",
     "optionD": "Thomas Edison",
-    "answer": "Thomas Edison"
+    "answer": "Thomas Edison",
+    "givenAnswer": ""
   },
 
   {
@@ -146,6 +160,7 @@
     "optionB": "Again Jesus asked",
     "optionC": "In the beginning",
     "optionD": "At that time",
-    "answer": "In the beginning"
+    "answer": "In the beginning",
+    "givenAnswer": ""
   }
 ]

@@ -4,9 +4,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+  .remarksCol {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: -1px -1px 2px lightgrey, 1px 1px 2px lightgrey;
+  }
   .card {
-    // width: 70%;
     border: none;
 
     .ul > li {

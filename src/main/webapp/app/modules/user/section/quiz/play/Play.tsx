@@ -1,18 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Question from './question/Question';
 import './style.scss';
-import questions from './questions.json';
+import questionsList from './questions.json';
 import { Button } from 'reactstrap';
+import { useHistory } from 'react-router-dom';
+
 function Play() {
-  const count = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+  const history = useHistory();
+  const [count, setCount] = useState(0);
+
+  const getCount = val => {
+    setCount(count + val);
+  };
+
+  const handleSubmit = () => {
+    localStorage.setItem('score', JSON.stringify(count));
+    history.push('/userdashboard/remarks');
+  };
 
   return (
     <div className="play">
-      {questions.map(val => (
-        <Question key={val.id} data={val} />
+      {questionsList.map(val => (
+        <Question key={val.id} data={val} getCount={getCount} />
       ))}
 
-      <Button className="btn">Submit</Button>
+      <Button className="btn" onClick={handleSubmit}>
+        Submit
+      </Button>
     </div>
   );
 }
