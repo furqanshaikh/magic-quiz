@@ -1,15 +1,19 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { Button } from 'reactstrap';
-import { ExitToApp, CameraAlt, Group, Home, AlarmAdd } from '@material-ui/icons';
+import { Link, useHistory } from 'react-router-dom';
+import { Button } from '@mui/material';
+
+import { ExitToApp, CameraAlt, Group, Home, AlarmAdd } from '@mui/icons-material';
+
 import './style.scss';
 
-export const ProfileImg = () => (
-  // <img src="content/images/logo-jhipster.png" width="100%" height="50%" alt="" />
-  <CameraAlt />
-);
+export const ProfileImg = () => <CameraAlt />;
 
 function Sidebar() {
+  const handleAccount = () => {
+    const history = useHistory();
+    history.push('/account/settings');
+  };
+
   return (
     <div className="sidebar">
       <div className="profile">
@@ -18,8 +22,11 @@ function Sidebar() {
         </div>
         <div className="profile__name">Qaiser Hussain</div>
       </div>
-      <Button color="primary" className="button">
-        Profile
+      <Button variant="contained" sx={{ width: '200px', margin: '10px 0', backgroundColor: '#8166e2' }}>
+        <Link to={'/account/settings'} style={{ textDecoration: 'none', color: 'white' }}>
+          {' '}
+          Profile{' '}
+        </Link>
       </Button>
 
       <div className="menus">
@@ -48,7 +55,7 @@ function Sidebar() {
           <li>
             {' '}
             <ExitToApp className="icon" />{' '}
-            <Link to={''} className="link">
+            <Link to={'/logout'} className="link">
               SignOut
             </Link>
           </li>

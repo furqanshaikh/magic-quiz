@@ -24,7 +24,7 @@ function Play() {
         <Question key={val.id} data={val} getCount={getCount} />
       ))}
 
-      <Button className="btn" onClick={handleSubmit}>
+      <Button className="submitBtn" onClick={handleSubmit}>
         Submit
       </Button>
     </div>

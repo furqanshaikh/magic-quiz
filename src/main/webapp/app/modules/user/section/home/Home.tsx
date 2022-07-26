@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 import { Col, Input, Row, InputGroup, Button, Label, ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 import './style.scss';
 
@@ -147,60 +148,3 @@ function Home() {
 }
 
 export default Home;
-
-// const data = [
-//   {
-//     id: 1,
-//     category: 'Science',
-//     others: {
-//       true: {
-//         img: <img src="content/images/TF.png" className="img" />,
-//         desc: 'True and false',
-//       },
-//       blanks: {
-//         img: <img src="content/images/blanks.png" className="img" />,
-//         desc: 'Blanks',
-//       },
-//       mcqs: {
-//         img: <img src="content/images/mcq.png" className="img" />,
-//         desc: 'Mcqs',
-//       },
-//     },
-//   },
-//   {
-//     id: 2,
-//     category: 'Computer',
-//     others: {
-//       true: {
-//         img: <img src="content/images/TF.png" className="img" />,
-//         desc: 'Mcqs',
-//       },
-//       blanks: {
-//         img: <img src="content/images/blanks.png" className="img" />,
-//         desc: 'Blanks',
-//       },
-//       mcqs: {
-//         img: <img src="content/images/mcq.png" className="img" />,
-//         desc: 'Mcqs',
-//       },
-//     },
-//   },
-//   {
-//     id: 3,
-//     category: 'Web and technology',
-//     others: {
-//       true: {
-//         img: <img src="content/images/TF.png" className="img" />,
-//         desc: 'blanks',
-//       },
-//       blanks: {
-//         img: <img src="content/images/blanks.png" className="img" />,
-//         desc: 'Blanks',
-//       },
-//       mcqs: {
-//         img: <img src="content/images/mcq.png" className="img" />,
-//         desc: 'Mcqs',
-//       },
-//     },
-//   },
-// ];

@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Button } from 'reactstrap';
-import { ExitToApp, CameraAlt, Group, Home, AlarmAdd } from '@material-ui/icons';
+// import { Button } from 'reactstrap';
+import { Button } from '@mui/material';
+import { ExitToApp, CameraAlt, Group, Home, AlarmAdd } from '@mui/icons-material';
 import './style.scss';
 
 export const ProfileImg = () => (
@@ -18,7 +19,7 @@ function Sidebar() {
         </div>
         <div className="profile__name">Qaiser Hussain</div>
       </div>
-      <Button color="primary" className="button">
+      <Button variant="contained" color="primary" className="button">
         Create Quiz
       </Button>
 

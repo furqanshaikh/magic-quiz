@@ -1,13 +1,12 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { Row, Col } from 'reactstrap';
 import Home from './home/Home';
 import Activity from './activity/Activity';
 import Classes from './classes/Classes';
-import './style.scss';
 import Play from './quiz/play/Play';
 import Instructions from './quiz/instructions/Instructions';
 import Remarks from './quiz/remarks/Remarks';
+import './style.scss';
 
 function DashboardContent() {
   return (
